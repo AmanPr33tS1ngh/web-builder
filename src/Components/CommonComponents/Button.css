@@ -1,0 +1,15 @@
+.btn{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.bg-blue{
+    background: #417fef;
+}
+.bg-green{
+    background: forestgreen;
+}
+.bg-red{
+    background: #e53e3e;
+}

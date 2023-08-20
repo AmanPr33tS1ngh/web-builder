@@ -1,0 +1,25 @@
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.success{
+    background: forestgreen;
+    color: white;
+}
+.error{
+    background: #e03d3d;
+    color: white;
+}
+.cross{
+    position: absolute;
+    right: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+select{
+    width: 30%;
+    margin: 5px 0 20px;
+    cursor: pointer;
+    padding: 10px 0px;
+}

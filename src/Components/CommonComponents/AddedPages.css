@@ -1,0 +1,12 @@
+.w-100{
+    margin-top: 40px;
+    width: 100%;
+}
+.d-flex-se{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text-align{
+    text-align: center;
+}
