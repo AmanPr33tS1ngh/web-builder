@@ -25,7 +25,6 @@ const PageHandler = (props) => {
         setState({...state, page: val})
     }
     const savePageName = () => {
-        console.log('state.page', state.page)
         if (!state.page?.value?.id){
             setState({...state, popUpMsg: {msg: 'Please select any one page', type: 'error'}})
             return;
@@ -65,7 +64,6 @@ const PageHandler = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    console.log('state check', state);
   return {
       pages: state.pages,
   };

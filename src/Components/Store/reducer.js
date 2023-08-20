@@ -18,7 +18,6 @@ const reducer = (state=initialState, action)=>{
                 }
                 return p;
             });
-            console.log('after update', updatedPages)
           return {
             ...state, pages: updatedPages,
           };

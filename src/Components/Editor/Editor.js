@@ -43,7 +43,6 @@ const Editor = (props) => {
       }
   }
   const getContent = () => {
-      console.log('called getContent')
       let url = window.location.pathname;
       url = url.split("/");
       let slug = url[url.length - 2];
@@ -60,8 +59,6 @@ const Editor = (props) => {
     // dispatch(updateContent(editor.getHtml()));
   })
     const saveContent = () => {
-            console.log('called saveContent')
-
       let url = window.location.pathname;
       url = url.split("/");
       let slug = url[url.length - 2];
